@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_ve_sdt"
+        android:layout_width="100dp"
+        android:drawableLeft="@drawable/ic_action_ve"
+        android:paddingLeft="20dp"
+        android:layout_height="55dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Chào bạn,"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Nhập số điện thoại để tiếp tục"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="100dp"
+android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/img">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+
+                android:src="@drawable/vietnam"></ImageView>
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="50dp"
+                android:layout_gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_action_cbb"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+<EditText
+    android:layout_width="220dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="20dp"
+    android:fontFamily="times new roman"
+    android:textSize="17dp"
+    android:paddingLeft="10dp"
+    android:layout_gravity="center_vertical"
+    android:hint="Số điện thoại"
+    android:background="@drawable/edittext"
+    />
+</LinearLayout>
+    <Button
+        android:id="@+id/bt_tieptuc"
+        android:layout_width="match_parent"
+        android:layout_marginTop="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bt_email"
+        android:text="Tiếp tục"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/tv_boqua"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Bỏ qua"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:textSize="15dp"
+        android:textColor="#0000FF"
+        android:fontFamily="times new roman"/>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/ln_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/img_hinhanh"
+                    android:layout_width="200dp"
+
+                    android:layout_height="90dp"
+                    android:paddingLeft="20dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/im1" />
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Mua 4 Tặng 2-Ăn bánh"
+
+                    android:textStyle="bold"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="uống trà, kể chuyện Thanh.."
+                    android:textStyle="bold"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Nhập THANHXUAN,Nhà mời"
+
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/name4"
+                    android:layout_height="20dp"
+                    android:paddingLeft="20dp"
+
+                    android:text="ngay ưu đãi MUA 4 TẶNG 2 để"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:paddingLeft="20dp"
+                    android:id="@+id/name5"
+                    android:text="cả team chúng mình thoải mái..."
+                    android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/bt_oderngay"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="Order ngay"
+            android:textSize="12dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FF9900"
+            android:background="@drawable/button1"/>
+    </LinearLayout>
+

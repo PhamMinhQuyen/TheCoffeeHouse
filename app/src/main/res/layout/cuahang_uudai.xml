@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/linerlayout"
+        android:layout_height="60dp">
+        <TextView
+
+            android:id="@+id/tv_close"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_action_close"
+            android:paddingLeft="20dp"
+            />
+        <TextView
+            android:paddingLeft="80dp"
+            android:layout_width="match_parent"
+            android:text="Cửa hàng ưu đãi"
+            android:textColor="#000000"
+            android:fontFamily="times new roman"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="570dp">
+        <TabHost
+
+            android:id="@+id/tab_dathang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!--Tab widget để chọn tab-->
+                <!--FrameLayout  chứa dữ liệu của activity-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/footer"
+                    android:orientation="horizontal">
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+
+                        >
+
+                    </TabWidget>
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginLeft="1dp">
+                    <!--for tab 1-->
+                    <LinearLayout
+                        android:id="@+id/tab_doiuudai"
+                        android:layout_width="410dp"
+                        android:layout_height="600dp"
+                        android:background="#F8F8FF"
+                        android:orientation="vertical">
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:background="@drawable/footer"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_marginTop="8dp"
+                                android:layout_width="410dp"
+                                android:layout_height="70dp"
+                                android:orientation="horizontal">
+                                <LinearLayout
+                                    android:layout_width="100dp"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:id="@+id/bt_Ts"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_width="70dp"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/hcoview"
+                                        android:drawableTop="@drawable/tatca"
+                                        />
+                                    <TextView
+                                        android:layout_width="80dp"
+                                        android:layout_height="30dp"
+                                        android:text="Tất cả"
+                                        android:textSize="19sp"
+                                        android:textColor="#181407"
+                                        android:gravity="center"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="100dp"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_width="70dp"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/hcoview"
+                                        android:drawableTop="@drawable/anuong"
+                                        />
+                                    <TextView
+                                        android:layout_width="80dp"
+                                        android:layout_height="30dp"
+                                        android:text="Ăn uống"
+                                        android:textSize="19sp"
+                                        android:textColor="#181407"
+                                        android:gravity="center"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="100dp"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_width="70dp"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/hcoview"
+                                        android:drawableTop="@drawable/muasam"
+                                        />
+                                    <TextView
+                                        android:layout_width="80dp"
+                                        android:layout_height="30dp"
+                                        android:text="Mua sắm"
+                                        android:textSize="19sp"
+                                        android:textColor="#181407"
+                                        android:gravity="center"
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="100dp"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_width="70dp"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/hcoview"
+                                        android:drawableTop="@drawable/dulich"
+                                        />
+                                    <TextView
+                                        android:layout_width="80dp"
+                                        android:layout_height="30dp"
+                                        android:text="Du lịch"
+                                        android:textSize="19sp"
+                                        android:textColor="#181407"
+                                        android:gravity="center"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="100dp"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_width="70dp"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/hcoview"
+                                        android:drawableTop="@drawable/dichvu"
+                                        />
+                                    <TextView
+                                        android:layout_width="80dp"
+                                        android:layout_height="30dp"
+                                        android:text="Dịch vụ"
+                                        android:textSize="19sp"
+                                        android:textColor="#181407"
+                                        android:gravity="center"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="100dp"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_width="70dp"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/hcoview"
+                                        android:drawableTop="@drawable/giaitri"
+                                        />
+                                    <TextView
+                                        android:layout_width="80dp"
+                                        android:layout_height="30dp"
+                                        android:text="Giải  trí"
+                                        android:textSize="19sp"
+                                        android:textColor="#181407"
+                                        android:gravity="center"
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="100dp"
+                                    android:layout_height="70dp"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_width="70dp"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/hcoview"
+                                        android:drawableTop="@drawable/noibat"
+                                        />
+                                    <TextView
+                                        android:layout_width="80dp"
+                                        android:layout_height="30dp"
+                                        android:text="Nổi bật"
+                                        android:textSize="19sp"
+                                        android:textColor="#181407"
+                                        android:gravity="center"
+                                        />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                        <ListView
+                            android:background="@drawable/footer"
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/lv_doi_uudai"
+                            android:layout_width="match_parent"
+                            android:layout_height="550dp"
+                            android:divider="@null"
+
+
+
+                            />
+                    </LinearLayout>
+
+                    <!--for tab 2-->
+                    <LinearLayout
+                        android:id="@+id/tab_thucuong"
+                        android:background="#F8F8FF"
+                        android:layout_width="410dp"
+                        android:layout_height="600dp"
+
+                        android:orientation="vertical">
+
+                        <!--Text View  để áp dụng văn bản vào tab-->
+                        <ImageView
+                            android:background="@drawable/footer"
+                            android:paddingTop="50dp"
+                            android:layout_width="match_parent"
+                            android:src="@drawable/cf_hinhtron"
+                            android:layout_height="200dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:background="@drawable/footer"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:paddingTop="20dp"
+                            android:textSize="20dp"
+                            android:text="Không có ưu đãi"/>
+                    </LinearLayout>
+
+                    <!--for tab 3-->
+
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_dangnhap"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="#FF9933"
+        android:text="Đăng nhập"
+
+        android:textColor="#FFFFFF"
+        android:layout_height="60dp"/>
+</LinearLayout>

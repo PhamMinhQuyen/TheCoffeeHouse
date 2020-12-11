@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@drawable/textview">
+                <TextView
+                    android:id="@+id/tv_close_suatt"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/ic_action_close"
+                    android:paddingLeft="20dp"
+                    />
+                <TextView
+                    android:paddingLeft="100dp"
+                    android:layout_width="match_parent"
+                    android:text="Sửa thông tin"
+
+                    android:fontFamily="times new roman"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="70dp"
+            android:hint="Họ"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="times new roman"
+            android:background="@drawable/textview"/>
+        <EditText
+            android:layout_width="match_parent"
+
+            android:layout_height="70dp"
+            android:hint="Tên"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="times new roman"
+            android:background="@drawable/textview"/>
+        <EditText
+            android:layout_width="match_parent"
+
+            android:layout_height="70dp"
+            android:hint="Ngày sinh"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="times new roman"
+            android:background="@drawable/textview"/>
+        <EditText
+            android:layout_width="match_parent"
+
+            android:layout_height="70dp"
+            android:hint="Giới tính"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="times new roman"
+            android:background="@drawable/textview"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bt_luuthaydoi"
+            android:text="Lưu thay đổi"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:background="@drawable/footer"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:id="@+id/themvaogh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:src="@drawable/bs"
+            android:layout_height="100dp"/>
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Bạc Sỉu"/>
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32.000 đ"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_tim"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yêu thích"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="@drawable/linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/linerlayout"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_marginLeft="20dp"
+
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:text="Nhỏ"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/linerlayout"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_marginLeft="20dp"
+
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:text="Nhỏ"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/linerlayout"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_marginLeft="20dp"
+
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:text="Nhỏ"/>
+    </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="@drawable/linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Giới thiệu món"/>
+    <TextView
+
+        android:background="@drawable/linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="30dp"
+        android:textColor="#000000"
+        android:text="Theo chân những người gốc Hoa đến đinh cư tịa Sài Gòn,Bạc Sỉu là cách gọi tắt của 'Bạc tẩy xỉu phé' trong tiếng Quảng Đông,chính là: Ly sữa trắng kèm một chút cà phê"/>
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_giam"/>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textStyle="bold"
+           android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_tang"/>
+        <Button
+            android:layout_marginLeft="50dp"
+            android:text="38.000 đ"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bt_email"
+            android:layout_width="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+
+</LinearLayout>

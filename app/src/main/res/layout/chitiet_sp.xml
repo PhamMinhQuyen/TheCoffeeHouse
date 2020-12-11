@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/linerlayout"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/tv_close"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_action_close"
+            android:paddingLeft="20dp"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:text="Team Hà Nội gọi combo trà mát,..."
+            android:textColor="#000000"
+            android:fontFamily="times new roman"
+            android:gravity="center_vertical"
+
+            android:textSize="20dp"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/mua2tang1"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="27dp"
+                android:layout_height="wrap_content"
+                android:text="Team Hà Nội gọi combo trà mát, Nhà tặng ngay ly xịn sò"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="Ngày 11 tháng 12 năm 2020"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textSize="20dp"
+                    android:text="Team Hà Nội ơi, tưởng chuyện đùa nhưng hoàn toàn nghiêm túc tại Nhà đó nha. Giờ đây, bạn sẽ nhận ngay ly nhựa 2 lớp xịn sò phiên bản Nắng Vàng và Biển Xanh dung tích 450ml khi mua combo 2 ly Trà Sữa Mắc ca trân châu trắng hoặc 2 ly Trà đen Macchiato size L đó. Combo 2 ly nước và quà tặng đã có sẵn tại mục Phổ biến. Mở app, chọn ngay combo yêu thích cho mình nào! "/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/mua2tang1"
+                android:layout_height="100dp"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/mua2tang1"
+                android:layout_height="100dp"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/mua2tang1"
+                android:layout_height="100dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="20dp"
+                android:text="*Số lượng quà tặng cực kỳ có hạn. Ưu đãi áp dụng cho đơn hàng giao tận nơi và PICKUP tại khu vực Hà Nội"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

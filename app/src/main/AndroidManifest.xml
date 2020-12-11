@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doancanhan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ThongBao.ThongBao"></activity>
+        <activity android:name=".ChiTietSP.ChiTietSP_User"></activity>
+        <activity android:name=".ChiTietSP.ChiTietSP"></activity>
+        <activity android:name=".Coupon.Coupon_User"></activity>
+        <activity android:name=".CH_UuDai_User.CuaHang_UuDai_User"></activity>
+        <activity android:name=".TichDiem.TichDiem_User"></activity>
+        <activity android:name=".Coupon.Coupon"></activity>
+        <activity android:name=".TichDiem.TichDiem"></activity>
+        <activity android:name=".DatHang_User.DatHang_User"></activity>
+        <activity android:name=".TimKiemSP.TimKiemSanPham"></activity>
+        <activity android:name=".DatHang.DatHang"></activity>
+        <activity android:name=".Profile.Profile_User"></activity>
+        <activity android:name=".Profile.SuaThongTin"></activity>
+        <activity android:name=".Profile.ThongTinCaNhan"></activity>
+        <activity android:name=".Main.Main_User"></activity>
+        <activity android:name=".DangNhap.DangNhap"></activity>
+        <activity android:name=".Profile.Profile"></activity>
+        <activity android:name=".DangNhap.DN_SoDienThoai"></activity>
+        <activity android:name=".CH_UuDai.CuaHang_UuDai"></activity>
+        <activity android:name=".Main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

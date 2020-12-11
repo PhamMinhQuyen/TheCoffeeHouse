@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <TextView
+
+        android:id="@+id/tv_title"
+        android:layout_width="240dp"
+        android:layout_height="25dp"
+        android:fontFamily="times new roman"
+        android:paddingLeft="15dp"
+        android:text="title"
+        android:textColor="#181407"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linerlayout"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/img_hinhanh"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:scaleType="fitStart"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_ten"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:text="Tên"
+            android:fontFamily="times new roman"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_ten1"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:text="Tên"
+            android:fontFamily="times new roman"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_tien"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:fontFamily="times new roman"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:text="tiền"
+        android:drawableRight="@drawable/ic_action_themvaogh"
+        android:paddingRight="20dp"
+        android:background="@drawable/linerlayout"
+        />
+
+
+</LinearLayout>
+
